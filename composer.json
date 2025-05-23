@@ -1,0 +1,25 @@
+{
+  "name": "whs/request-sql-logger",
+  "description": "记录请求与 SQL 日志的中间件组件",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Wu Haisheng",
+      "email": "735298019@qq.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4|^8.0",
+    "hyperf/http-server": "^2.2",
+    "hyperf/database": "^2.2",
+    "hyperf/logger": "^2.2",
+    "hyperf/event": "^2.2",
+    "hyperf/context": "^2.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "RequestSqlTrace\\RequestSqlLogger\\": "src/"
+    }
+  }
+}
