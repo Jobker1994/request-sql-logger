@@ -18,7 +18,7 @@ class LoggerMiddleware implements MiddlewareInterface
     public function __construct(RequestInterface $request, LoggerFactory $loggerFactory)
     {
         $this->request = $request;
-        $this->logger = $loggerFactory->get('default');
+        $this->logger = $loggerFactory->get('request');
     }
 
     public function process(ServerRequestInterface $request, RequestHandlerInterface $handler): ResponseInterface
