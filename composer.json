@@ -1,6 +1,6 @@
 {
   "name": "whs/request-sql-logger",
-  "description": "记录请求与 SQL 日志的中间件组件",
+  "description": "这是记录请求与 SQL 日志的中间件组件",
   "type": "library",
   "license": "MIT",
   "authors": [
